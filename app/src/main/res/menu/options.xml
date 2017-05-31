@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:actionMenu="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="schemas.android.com/tools"
+    tools:context="com.example.shara.assignment3.MainActivity">
+
+    <item android:title="@string/color"
+        android:id="@+id/color"
+        actionMenu:showAsAction="always">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/black"
+                    android:title="@string/black" />
+                <item android:id="@+id/blue"
+                    android:title="@string/blue" />
+                <item android:id="@+id/red"
+                    android:title="@string/red" />
+                <item android:id="@+id/green"
+                    android:title="@string/green" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/option"
+        android:title="@string/option"
+        actionMenu:showAsAction="always">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item android:title="@string/menuitem1"
+                        android:id="@+id/draw" />
+                    <item android:title="@string/menuitem2"
+                        android:id="@+id/delete" />
+                    <item android:title="@string/menuitem3"
+                        android:id="@+id/move" />
+                </group>
+            </menu>
+    </item>
+</menu>

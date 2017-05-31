@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Circle</string>
+    <string name="menuitem1">Draw</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="color">Color</string>
+    <string name="option">Mode</string>
+    <string name="menuitem2">Delete</string>
+    <string name="menuitem3">Move</string>
+</resources>
